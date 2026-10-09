@@ -6,7 +6,7 @@ GPT-6 Luna 기반 한국어 웹페이지 번역 확장 프로그램의 설치 �
 - [개인정보처리방침](https://anthony1234567816.github.io/gpt-page-translator-downloads/privacy.html)
 - [배포 파일](https://github.com/anthony1234567816/gpt-page-translator-downloads/releases/tag/v1.2.2)
 
-웹스토어는 아직 심사 전 초안입니다. 게시 후 미등록 링크로 공유합니다. 보조 프로그램과 확장 프로그램을 모두 설치해야 합니다. 본인의 이용 가능한 ChatGPT 계정과 모델 접근 권한이 필요합니다.
+웹스토어는 아직 심사 전 초안입니다. 게시 후 미등록 링크로 공유합니다. 보조 프로그램과 확장 프로그램을 모두 설치해야 합니다. 본인의 ChatGPT Plus 이상 요금제와 GPT-6 Luna 모델 접근 권한이 필요합니다. 무료 계정은 지원하지 않습니다.
 
 문의: anthony1234567816@gmail.com
 
