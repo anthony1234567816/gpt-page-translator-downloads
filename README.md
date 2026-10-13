@@ -1,31 +1,30 @@
-# GPT Page Translator — Downloads
+# GPT Page Translator
 
-GPT-6 Luna 기반 한국어 웹페이지 번역 확장 프로그램의 Windows v1.2.3 설치 안내 및 배포 자료입니다. OpenAI 공식 제품이 아닙니다.
+GPT-6 Luna 기반 웹페이지 한국어 번역 확장 프로그램입니다. OpenAI 공식 제품이 아닙니다.
 
-- [다운로드·설치 안내](https://anthony1234567816.github.io/gpt-page-translator-downloads/)
-- [자세한 설치·연결 방법](https://anthony1234567816.github.io/gpt-page-translator-downloads/install.html)
-- [개인정보처리방침](https://anthony1234567816.github.io/gpt-page-translator-downloads/privacy.html)
-- [v1.2.3 배포 파일·SHA-256](https://github.com/anthony1234567816/gpt-page-translator-downloads/releases/tag/v1.2.3)
+## 설치
 
-Windows 10/11 x64, Google Chrome 또는 Comet을 지원합니다. 보조 프로그램과 확장 프로그램을 모두 설치해야 합니다. Node.js는 포함되어 있습니다. 본인의 ChatGPT Plus 또는 Pro와 GPT-6 Luna 접근 권한 및 공식 플랜 승인이 필요합니다. 무료 계정은 지원하지 않습니다.
-
-Windows EXE 설치 → Google Chrome 또는 Comet 선택 → **브라우저 연결**. 확장 ID는 자동 등록되며 직접 입력할 필요가 없습니다. 재연결: Win+R → `%LOCALAPPDATA%\GPT Page Translator` → `App\windows\Install.cmd`.
-
-웹스토어는 아직 심사 전 초안입니다. EXE에 확장 폴더도 포함되어 있어 별도 확장 ZIP을 받을 필요가 없습니다.
-
-## 현재 설치 순서
-
-1. Windows EXE 설치 → Google Chrome 또는 Comet 선택 → **브라우저 연결**.
-2. `chrome://extensions` → **개발자 모드** → **압축해제된 확장 프로그램 로드**.
-3. `%LOCALAPPDATA%\GPT Page Translator\App\extension` 폴더를 선택합니다. 파일 하나가 아니라 `manifest.json`이 바로 들어 있는 `extension` 폴더를 선택하세요.
+1. 사용할 Chrome 또는 Comet에서 [Chrome 웹스토어 확장](https://chromewebstore.google.com/detail/nfgonbjadjmfjcickpocfhgefhbcdegk)을 설치합니다.
+2. [Windows 보조 프로그램 v1.2.4](https://github.com/anthony1234567816/gpt-page-translator-downloads/releases/tag/v1.2.4)의 설치 EXE를 실행합니다.
+3. Google Chrome 또는 Comet을 선택하고 **브라우저 연결**을 누릅니다. 확장 ID는 자동 등록됩니다.
 4. 브라우저를 완전히 재시작하고 확장 팝업에서 **ChatGPT 계정 연결**을 진행합니다.
 
-별도 확장 ZIP은 다른 위치에 확장을 보관하려는 경우에만 사용하는 수동 설치 방법입니다. ZIP만으로는 로컬 보조 프로그램이 설치되지 않습니다.
+개발자 모드나 확장 ID 수동 입력은 필요 없습니다. Windows 설치 파일에는 확장 프로그램 원본이 포함되지 않습니다.
 
- 웹스토어 게시 후에는 개발자 모드 없이 설치할 수 있으며 미등록 링크로 공유할 예정입니다. macOS 정식 배포는 이번 버전에 포함하지 않습니다.
+Windows 10/11 x64, 본인의 ChatGPT Plus/Pro와 GPT-6 Luna 사용 권한이 필요합니다. 무료 계정은 지원하지 않습니다. Node.js 포함, 별도 OpenAI API 키 불필요. 계정 사용량 제한이 적용됩니다.
 
-현재 Windows 설치 및 자체 보조 EXE는 디지털 서명되지 않았습니다. 공식 다운로드 출처와 SHA-256을 확인하세요. SHA-256은 디지털 서명이 아닙니다. DevKit 및 타사 라이선스·수정 고지는 배포 파일에 동봉됩니다.
+## 다운로드·지원
+
+- [공식 사이트](https://anthony1234567816.github.io/gpt-page-translator-downloads/)
+- [설치·연결 안내](https://anthony1234567816.github.io/gpt-page-translator-downloads/install.html)
+- [Windows 설치 안내 문서](Windows-설치안내.md)
+- [v1.2.4 배포 파일·SHA-256](https://github.com/anthony1234567816/gpt-page-translator-downloads/releases/tag/v1.2.4)
+- [개인정보처리방침](https://anthony1234567816.github.io/gpt-page-translator-downloads/privacy.html)
+
+재연결: Win + R → `%LOCALAPPDATA%\GPT Page Translator` → `App\windows\Install.cmd` → 브라우저 선택 → **브라우저 연결**.
+
+현재 설치 EXE와 자체 보조 실행 파일은 디지털 서명되지 않았습니다. 공식 다운로드 출처와 SHA-256을 확인하세요. SHA-256은 디지털 서명이 아닙니다. DevKit 및 타사 라이선스·수정 고지는 배포 파일에 동봉됩니다.
+
+이 저장소는 배포 파일과 공개 안내용입니다. 개발 소스는 별도로 관리합니다. macOS 정식 설치 프로그램은 아직 제공하지 않습니다.
 
 문의: anthony1234567816@gmail.com
-
-이 저장소는 배포 자료와 공개 안내용입니다. 개발 소스 저장소는 별도로 관리합니다.
