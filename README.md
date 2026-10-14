@@ -5,7 +5,7 @@ GPT-6 Luna 기반 웹페이지 한국어 번역 확장 프로그램입니다. Op
 ## 설치
 
 1. 사용할 Chrome 또는 Comet에서 [Chrome 웹스토어 확장](https://chromewebstore.google.com/detail/nfgonbjadjmfjcickpocfhgefhbcdegk)을 설치합니다.
-2. [Windows 보조 프로그램 v1.2.4](https://github.com/anthony1234567816/gpt-page-translator-downloads/releases/tag/v1.2.4)의 설치 EXE를 실행합니다.
+2. [Windows 보조 프로그램 v1.3.0](https://github.com/anthony1234567816/gpt-page-translator-downloads/releases/tag/v1.3.0)의 설치 EXE를 실행합니다.
 3. Google Chrome 또는 Comet을 선택하고 **브라우저 연결**을 누릅니다. 확장 ID는 자동 등록됩니다.
 4. 브라우저를 완전히 재시작하고 확장 팝업에서 **ChatGPT 계정 연결**을 진행합니다.
 
@@ -18,7 +18,7 @@ Windows 10/11 x64, 본인의 ChatGPT Plus/Pro와 GPT-6 Luna 사용 권한이 필
 - [공식 사이트](https://anthony1234567816.github.io/gpt-page-translator-downloads/)
 - [설치·연결 안내](https://anthony1234567816.github.io/gpt-page-translator-downloads/install.html)
 - [Windows 설치 안내 문서](Windows-설치안내.md)
-- [v1.2.4 배포 파일·SHA-256](https://github.com/anthony1234567816/gpt-page-translator-downloads/releases/tag/v1.2.4)
+- [v1.3.0 배포 파일·SHA-256](https://github.com/anthony1234567816/gpt-page-translator-downloads/releases/tag/v1.3.0)
 - [개인정보처리방침](https://anthony1234567816.github.io/gpt-page-translator-downloads/privacy.html)
 
 재연결: Win + R → `%LOCALAPPDATA%\GPT Page Translator` → `App\windows\Install.cmd` → 브라우저 선택 → **브라우저 연결**.
@@ -28,3 +28,7 @@ Windows 10/11 x64, 본인의 ChatGPT Plus/Pro와 GPT-6 Luna 사용 권한이 필
 이 저장소는 배포 파일과 공개 안내용입니다. 개발 소스는 별도로 관리합니다. macOS 정식 설치 프로그램은 아직 제공하지 않습니다.
 
 문의: anthony1234567816@gmail.com
+
+## v1.3.0 안내
+
+Windows 보조 프로그램 v1.3.0을 제공합니다. 확장 v1.3.0 웹스토어 업데이트는 예정이며, 현재 웹스토어 설치본과 기본 연결·번역은 호환됩니다. v1.3 자동 복구 기능은 v1.3 확장과 함께 사용할 수 있습니다.
