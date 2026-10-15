@@ -51,3 +51,5 @@
   const platform = navigator.userAgentData?.platform || navigator.platform || '';
   if (/mac/i.test(platform)) document.querySelectorAll('[data-mac-notice]').forEach(el => {el.hidden=false;});
 })();
+
+(() => {const controls=[...document.querySelectorAll('[data-platform]')];if(!controls.length)return;function choose(name){for(const button of controls)button.setAttribute('aria-pressed',String(button.dataset.platform===name));for(const panel of document.querySelectorAll('[data-platform-panel]'))panel.hidden=panel.dataset.platformPanel!==name;for(const part of document.querySelectorAll('[data-platform-only]'))part.hidden=part.dataset.platformOnly!==name;}for(const button of controls)button.addEventListener('click',()=>choose(button.dataset.platform));const platform=navigator.userAgentData?.platform||navigator.platform||'';choose(/mac/i.test(platform)?'mac':'windows');})();
